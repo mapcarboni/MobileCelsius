@@ -1,3 +1,4 @@
-npx create-expo-app testemobile --template blank
-cd testemobile
-npm start
+ - npm install -g expo-cli <!-- Instalação não obrigatoria, onde o próprio Expo recomenda usar npx para evitar versões desatualizadas. -->
+- npx create-expo-app testemobile --template blank
+- cd testemobile
+- npm start
