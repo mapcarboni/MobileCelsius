@@ -2,7 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // O container ocupa toda a tela disponível
+    display: 'flex', // Define o container como flexível
+    height: '100%', // Define a altura mínima do container como 100% da tela
     justifyContent: 'center', // Centraliza os elementos verticalmente
     alignItems: 'center', // Centraliza os elementos horizontalmente
     backgroundColor: 'lightblue', // Define a cor de fundo da tela
